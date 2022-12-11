@@ -1,6 +1,6 @@
 <?php
 
-require './vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 $smarty = new Smarty();
 
@@ -9,4 +9,4 @@ $smarty->setCompileDir('./templates_c/');
 $smarty->setCacheDir('./cache/');
 $smarty->setConfigDir('./config/');
 
-$smarty->testInstall();
+//$smarty->testInstall();
